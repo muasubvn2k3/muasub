@@ -21,17 +21,6 @@
       --x-color: #14171a;
     }
 
-    /* BẢO VỆ: CHẶN BÔI ĐEN & TƯƠNG TÁC HÌNH ẢNH */
-    body {
-      -webkit-user-select: none !important;
-      -moz-user-select: none !important;
-      -ms-user-select: none !important;
-      user-select: none !important;
-    }
-    img {
-      -webkit-user-drag: none !important;
-    }
-
     /* Fix lỗi hiện text/flash content khi load trang */
     body {
       opacity: 0;
