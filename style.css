@@ -823,3 +823,65 @@
       .service-card-wrapper { padding: 40px 20px 30px; }
       .accordion-custom .accordion-body { padding-left: 30px; }
     }
+/* FIX HIỂN THỊ KHI DÁN VÀO FULL HTML CUSTOM */
+html,
+body {
+  opacity: 1 !important;
+  visibility: visible !important;
+  min-height: auto !important;
+  height: auto !important;
+  overflow-x: hidden !important;
+}
+
+/* Ép AOS luôn hiện, tránh trắng trang nếu JS bị chặn */
+[data-aos],
+[data-aos][data-aos][data-aos-delay],
+[data-aos].aos-animate {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+  visibility: visible !important;
+}
+
+/* Fix header khi nhúng vào web khác */
+.header.fixed-top {
+  position: sticky !important;
+  top: 0 !important;
+}
+
+/* Fix mobile không bị tràn ngang */
+.main,
+section,
+.container,
+.container-xl {
+  max-width: 100% !important;
+}
+
+/* Fix ảnh mobile */
+img {
+  max-width: 100% !important;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 90px !important;
+  }
+
+  .display-4 {
+    font-size: 2rem !important;
+    line-height: 1.25 !important;
+  }
+
+  .hero-buttons {
+    flex-direction: column !important;
+  }
+
+  .hero-buttons .btn {
+    width: 100% !important;
+  }
+
+  .navmenu {
+    width: 85vw !important;
+  }
+}
