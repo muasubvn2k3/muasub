@@ -11,7 +11,7 @@
       --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
       --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
       --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
-
+      
       /* Platform Colors */
       --fb-color: #1877f2;
       --tt-color: #000000;
@@ -59,7 +59,7 @@
       border-bottom: 1px solid rgba(0, 0, 0, 0.05);
       z-index: 1000;
     }
-
+    
     .header.scrolled {
       padding: 10px 0;
       box-shadow: var(--shadow-sm);
@@ -292,7 +292,7 @@
     .about-subtitle { color: var(--primary-color); font-weight: 700; font-size: 15px; margin-bottom: 12px; display: block; text-transform: uppercase; letter-spacing: 1px; }
     .about-title { font-size: clamp(32px, 4vw, 48px); color: #1e293b; margin-bottom: 25px; line-height: 1.1; letter-spacing: -1.5px; }
     .about-desc { color: #64748b; margin-bottom: 35px; font-size: 17px; }
-
+    
     .check-list-item { 
         display: flex; 
         align-items: center; 
@@ -311,7 +311,7 @@
         transform: translateX(5px);
     }
     .check-list-item i { color: #3b82f6; font-size: 18px; }
-
+    
     .profile-info-card, .contact-info-card {
         background: rgba(255, 255, 255, 0.8);
         backdrop-filter: blur(10px);
@@ -375,7 +375,7 @@
         transition: var(--transition);
         animation: boxFloat 4s ease-in-out infinite;
     }
-
+    
     .experience-box::before {
         content: "";
         position: absolute;
@@ -463,7 +463,7 @@
     .pricing-card h3 { font-size: 24px; color: #1e293b; margin-bottom: 5px; font-weight: 800; }
     .pricing-card .price { font-size: 46px; font-weight: 900; margin: 15px 0 5px; color: var(--primary-color); letter-spacing: -2px; }
     .pricing-card .nạp-tối-thiểu { font-size: 12px; font-weight: 700; text-transform: uppercase; color: #94a3b8; letter-spacing: 1px; margin-bottom: 25px; display: block; }
-
+    
     .pricing-card ul li { font-weight: 500; font-size: 15px; color: #475569; padding: 10px 0; border-bottom: 1px dashed rgba(0,0,0,0.05); }
     .pricing-card ul li:last-child { border-bottom: none; }
 
@@ -474,7 +474,7 @@
       z-index: 2;
       box-shadow: 0 25px 50px rgba(13, 110, 253, 0.35);
     }
-
+    
     .pricing-card.popular:hover {
       box-shadow: 0 35px 70px rgba(13, 110, 253, 0.5);
     }
@@ -498,7 +498,7 @@
     .pricing-card.exclusive ul li { color: white !important; }
     .pricing-card.exclusive .nạp-tối-thiểu { color: rgba(255,255,255,0.5) !important; }
     .pricing-card.exclusive ul li { border-bottom-color: rgba(255,255,255,0.05); }
-
+    
     .pricing-card.exclusive:hover {
         border-color: var(--accent-color);
         box-shadow: 0 30px 60px rgba(0,0,0,0.5);
@@ -536,7 +536,7 @@
         text-align: center;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04), 0 4px 8px rgba(0,0,0,0.02);
     }
-
+    
     .service-card-wrapper::after {
         content: "";
         position: absolute;
@@ -576,13 +576,13 @@
         position: relative;
         z-index: 2;
     }
-
+    
     .service-card-wrapper:hover .service-icon-box {
         transform: scale(1.1) rotate(5deg);
         background: white;
         box-shadow: 0 15px 30px rgba(0,0,0,0.08);
     }
-
+    
     .service-card-wrapper h4 {
         color: #1e293b;
         font-size: 22px;
@@ -596,7 +596,7 @@
         justify-content: center;
         margin-bottom: 25px;
     }
-
+    
     .service-tag {
         font-size: 10px;
         font-weight: 800;
@@ -614,7 +614,7 @@
         background: white;
         border-color: rgba(0,0,0,0.1);
     }
-
+    
     .service-badge {
         position: absolute;
         top: 25px;
@@ -778,7 +778,7 @@
         font-size: 15.5px;
         line-height: 1.8;
     }
-
+    
     /* Footer */
     .footer { background: #020617; color: #94a3b8; padding: 80px 0 40px; overflow: hidden; }
     .footer h5 { color: white; font-size: 18px; margin-bottom: 25px; }
