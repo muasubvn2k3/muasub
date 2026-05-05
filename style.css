@@ -23,16 +23,13 @@
 
     /* Fix lỗi hiện text/flash content khi load trang */
     body {
-      opacity: 0;
-      transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-      font-family: 'Be Vietnam Pro', sans-serif;
-      color: var(--text-dark);
-      background-color: #ffffff;
-      line-height: 1.6;
-    }
-    body.loaded {
-      opacity: 1;
-    }
+  opacity: 1 !important;
+  transition: none !important;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  color: var(--text-dark);
+  background-color: #ffffff;
+  line-height: 1.6;
+}
 
     html, body { 
         scroll-behavior: smooth; 
